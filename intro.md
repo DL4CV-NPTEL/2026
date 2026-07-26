@@ -133,22 +133,34 @@ be written.
 
 ## Instructor
 
-<!-- To show a photo, drop the image file at images/vineeth.jpg and uncomment:
 ```{image} images/vineeth.jpg
 :alt: Vineeth N Balasubramanian
-:width: 180px
+:width: 190px
 :align: left
+:class: bg-transparent
 ```
--->
 
-**Prof. Vineeth N Balasubramanian**
-Department of Computer Science and Engineering, IIT Hyderabad
+**Vineeth N Balasubramanian**
 
-Vineeth N Balasubramanian is a Professor in the Department of Computer Science and
-Engineering at the Indian Institute of Technology Hyderabad. His research is in deep
-learning, machine learning and computer vision, with interests spanning explainable
-and interpretable machine learning, learning with limited supervision, and the
-reliability of deep models. He teaches this course on NPTEL.
+Principal Researcher, Microsoft Research India
+Professor, Computer Science and Engineering, IIT Hyderabad
+
+His broader research interests lie in deep learning, computer vision, multimodality,
+reasoning and explainable AI. His ongoing work at Microsoft Research focuses on
+multimodality in foundation models, large reasoning models, machine learning for
+retrieval in LLMs, and applications to trustworthy and safe AI, human-in-the-loop AI
+and healthcare. His research has produced over 100 peer-reviewed publications at
+venues including ICML, NeurIPS, CVPR, ICCV, KDD and AAAI, and he received the
+Teaching Excellence Award at IIT Hyderabad in 2017.
+
+[Microsoft Research profile](https://www.microsoft.com/en-us/research/people/vineethn/) ·
+[IIT Hyderabad profile](https://iith.ac.in/cse/vineethnb/)
+
+```{eval-rst}
+.. raw:: html
+
+   <div style="clear: both;"></div>
+```
 
 ## Teaching Assistants
 
