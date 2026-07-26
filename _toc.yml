@@ -1,0 +1,94 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: "Week 1: Image Formation and Representation"
+    chapters:
+      - file: "notebooks/Week 1/Week_1_Lecture_1_New"
+      - file: "notebooks/Week 1/Week_1_Lecture_2_New"
+      - file: "notebooks/Week 1/Week_1_Lecture_3_New"
+      - file: "notebooks/Week 1/Week_1_Lecture_4_New"
+      - file: "notebooks/Week 1/Week_1_Lecture_5_New"
+      - file: "notebooks/Week 1/Week_1_Lecture_6_New"
+      - file: "notebooks/Week 1/Week_1_Lecture_7_New"
+  - caption: "Week 2: Feature Detection and Description"
+    chapters:
+      - file: "notebooks/Week 2/Week_2_Lecture_1_New"
+      - file: "notebooks/Week 2/Week_2_Lecture_2_New"
+      - file: "notebooks/Week 2/Week_2_Lecture_3_New"
+      - file: "notebooks/Week 2/Week_2_Lecture_4_New"
+      - file: "notebooks/Week 2/Week_2_Lecture_5_New"
+      - file: "notebooks/Week 2/Week_2_Lecture_6_New"
+      - file: "notebooks/Week 2/Week_2_Lecture_7_New"
+  - caption: "Week 3: Neural Networks"
+    chapters:
+      - file: "notebooks/Week 3/L01_MP_Neuron_and_Perceptron"
+      - file: "notebooks/Week 3/L02_XOR_MLP_and_Activations"
+      - file: "notebooks/Week 3/L03_Feedforward_and_Gradient_Descent"
+      - file: "notebooks/Week 3/L04_Backpropagation"
+      - file: "notebooks/Week 3/L05_Momentum_and_Nesterov"
+      - file: "notebooks/Week 3/L06_SGD_and_Adaptive_Optimizers"
+      - file: "notebooks/Week 3/L07_Regularization_and_L2"
+      - file: "notebooks/Week 3/L08_EarlyStopping_Augmentation_Dropout"
+      - file: "notebooks/Week 3/L09_Activation_Functions_In_Depth"
+      - file: "notebooks/Week 3/L10_Weight_Init_and_BatchNorm"
+  - caption: "Week 4: Convolutional Neural Networks"
+    chapters:
+      - file: "notebooks/Week 4/L1_Convolution_and_Hyperparameters"
+      - file: "notebooks/Week 4/L2_Why_CNNs_and_Conv_Variants"
+      - file: "notebooks/Week 4/L3_Backpropagation_in_CNNs"
+      - file: "notebooks/Week 4/L4_CNN_Architectures"
+  - caption: "Week 5: CNN Architectures, Finetuning and Visualization"
+    chapters:
+      - file: "notebooks/Week 5/W05_L1_Evolution_of_CNN_Architectures"
+      - file: "notebooks/Week 5/W05_L2_Recent_CNN_Architectures"
+      - file: "notebooks/Week 5/W05_L3_Finetuning_CNNs"
+      - file: "notebooks/Week 5/W05_L4_Visualizing_CNNs"
+  - caption: "Week 6: Object Detection and Segmentation"
+    chapters:
+      - file: "notebooks/Week 6/W6_L1_Object_Detection_Foundations"
+      - file: "notebooks/Week 6/W6_L2_Two_Stage_Detectors_RCNN_Family"
+      - file: "notebooks/Week 6/W6_L3_Single_Stage_Detectors"
+      - file: "notebooks/Week 6/W6_L4_CNNs_for_Segmentation"
+  - caption: "Week 7: Recurrent Neural Networks"
+    chapters:
+      - file: "notebooks/Week 7/W07_L1_RNNs_Introduction"
+      - file: "notebooks/Week 7/W07_L2_Backpropagation_in_RNNs"
+      - file: "notebooks/Week 7/W07_L3_LSTMs_and_GRUs"
+      - file: "notebooks/Week 7/W07_L4_Video_Understanding_with_CNNs_and_RNNs"
+  - caption: "Week 8: Attention and Transformers"
+    chapters:
+      - file: "notebooks/Week 8/W08_L1_Attention_in_Vision_Models"
+      - file: "notebooks/Week 8/W08_L2_Soft_and_Hard_Attention"
+      - file: "notebooks/Week 8/W08_L3_Beyond_Captioning_VQA_and_Dialog"
+      - file: "notebooks/Week 8/W08_L4_Self_Attention_and_Transformers"
+  - caption: "Week 9: Vision Transformers"
+    chapters:
+      - file: "notebooks/Week 9/W09_L1_From_Transformers_to_Vision_Transformers"
+      - file: "notebooks/Week 9/W09_L2_Transformers_for_Detection"
+      - file: "notebooks/Week 9/W09_L3_Transformers_for_Segmentation"
+  - caption: "Week 10: Deep Generative Models"
+    chapters:
+      - file: "notebooks/Week 10/W10_L1_Deep_Generative_Models"
+      - file: "notebooks/Week 10/W10_L2_GANs_Part1"
+      - file: "notebooks/Week 10/W10_L3_GANs_Part2"
+      - file: "notebooks/Week 10/W10_L4_GAN_Improvements"
+      - file: "notebooks/Week 10/W10_L5_Variational_Autoencoders"
+      - file: "notebooks/Week 10/W10_L6_VAEs_and_Disentanglement"
+  - caption: "Week 11: Diffusion Models"
+    chapters:
+      - file: "notebooks/Week 11/W11_L1_Diffusion_Models_and_DDPM_Part1"
+      - file: "notebooks/Week 11/W11_L2_Diffusion_Models_and_DDPM_Part2"
+      - file: "notebooks/Week 11/W11_L3_Classifier_and_Classifier_Free_Guidance"
+  - caption: "Week 12: Self-Supervised and Vision-Language Models"
+    chapters:
+      - file: "notebooks/Week 12/W12_L1_Contrastive_Learning_Part1"
+      - file: "notebooks/Week 12/W12_L2_Contrastive_Learning_Part2"
+      - file: "notebooks/Week 12/W12_L3_Self_Supervised_Learning_SimCLR"
+      - file: "notebooks/Week 12/W12_L4_VLMs_Introduction_and_History"
+      - file: "notebooks/Week 12/W12_L5_CLIP"
+      - file: "notebooks/Week 12/W12_L6_Beyond_CLIP_BLIP_and_CoCa"
+      - file: "notebooks/Week 12/W12_L7_From_VLMs_to_Multimodal_LLMs"
+      - file: "notebooks/Week 12/W12_L8_Course_Conclusion"

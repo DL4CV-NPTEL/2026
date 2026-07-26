@@ -1,0 +1,38 @@
+title: Deep Learning for Computer Vision
+author: Prof. Vineeth N Balasubramanian, IIT Hyderabad
+copyright: "2026"
+only_build_toc_files: true
+
+execute:
+  # Notebook outputs are committed, so the build never runs a kernel. This keeps
+  # builds fast and reproducible, and avoids needing torch/skimage at build time.
+  # If you switch this to "cache", install scikit-image and opencv-python first,
+  # or Weeks 1-2 will fail to execute.
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/DL4CV-NPTEL/2026
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  home_page_in_navbar: true
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  notebook_interface: "classic"
+
+sphinx:
+  config:
+    # Notebook filenames contain spaces; keep generated links intact.
+    html_sourcelink_suffix: ""
+    nb_merge_streams: true
+  extra_extensions: []
+
+parse:
+  myst_enable_extensions:
+    - amsmath        # the notebooks use LaTeX environments
+    - dollarmath     # $...$ and $$...$$ inline maths
+    - colon_fence
+    - linkify
