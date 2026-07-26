@@ -28,6 +28,11 @@ sphinx:
     # Notebook filenames contain spaces; keep generated links intact.
     html_sourcelink_suffix: ""
     nb_merge_streams: true
+    html_theme_options:
+      # Sidebar shows the 12 weeks only; a week expands to its lectures
+      # when you click it.
+      show_navbar_depth: 1
+      collapse_navbar: false
   extra_extensions: []
 
 parse:
