@@ -2,6 +2,15 @@
 
 Companion notebooks for the NPTEL course **Deep Learning for Computer Vision**.
 
+:::{warning}
+**This website is under active development and is prone to mistakes.**
+
+Content is still being written, revised and corrected. Expect errors in the text,
+the code and the figures. If something looks wrong, it may well be. Please treat the
+lecture videos and slides as the authoritative source, and
+[report anything you find](https://github.com/DL4CV-NPTEL/2026/issues).
+:::
+
 ## About this book
 
 The course runs for twelve weeks. Every lecture has a page in this book, and each
@@ -17,6 +26,19 @@ a *Setup* cell, the numbered sections, then *Key takeaways* and *Exercises*.
 
 Read a page here to follow the derivations and figures, or click **Open in Colab**
 at the top of any page to run and edit the code yourself.
+
+:::{note}
+**The sliders on this site are not interactive. To use them, open the notebook in Colab.**
+
+Several notebooks end with an *Explore and verify* section containing `ipywidgets`
+sliders. A slider needs a running Python kernel behind it, and these pages are static
+HTML, so on this website the widgets are frozen at their default values. Every such
+section is paired with a static figure sweeping the same parameter, so you can see the
+effect here regardless.
+
+To move the sliders yourself, click **Open in Colab** at the top of the page and run
+the cells.
+:::
 
 Weeks 1 to 6 have full hands-on notebooks. Weeks 7 to 12 currently provide the
 lecture video and slides for each lecture, with the hands-on material still to
