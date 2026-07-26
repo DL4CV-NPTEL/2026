@@ -26,6 +26,14 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
+          # The pip cache looks for requirements.txt by default; point it here.
+          cache-dependency-path: requirements-docs.txt
+
+      # Turns Pages on for the repo if it has never been enabled, so no manual
+      # step in repo settings is needed.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Install Jupyter Book
         run: pip install -r requirements-docs.txt
