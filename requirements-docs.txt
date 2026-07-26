@@ -1,0 +1,6 @@
+# Dependencies for building the Jupyter Book site.
+#
+# Pinned below 2.0 deliberately: jupyter-book 2.x is the MyST rewrite, which
+# needs Node.js and a different config format (myst.yml instead of
+# _config.yml / _toc.yml). Installing it unpinned would break this build.
+jupyter-book>=1.0,<2
