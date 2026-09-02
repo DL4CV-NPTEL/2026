@@ -1,3 +1,5 @@
 .DS_Store
 ~$*
 _build/
+# torchvision downloads made by the notebooks (root="./data")
+data/
