@@ -40,7 +40,7 @@ To move the sliders yourself, click **Open in Colab** at the top of the page and
 the cells.
 :::
 
-Weeks 1 to 6 have full hands-on notebooks. Weeks 7 to 12 currently provide the
+Weeks 1 to 9 have full hands-on notebooks. Weeks 10 to 12 currently provide the
 lecture video and slides for each lecture, with the hands-on material still to
 be written.
 
